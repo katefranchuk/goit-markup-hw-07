@@ -1,0 +1,20 @@
+%logo {
+  font-family: getFontFamily('secondary');
+  font-weight: getFontWeight('bold');
+  font-size: getFontSize('logo');
+  line-height: 1.2;
+}
+
+.logo--dark {
+  @extend %logo;
+  color: #000000;
+}
+
+.logo--light {
+  @extend %logo;
+  color: #ffffff;
+}
+
+.logo__accent {
+  color: getColor('accent');
+}

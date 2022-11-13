@@ -1,0 +1,27 @@
+.clients__list {
+  @include itemList();
+}
+
+.clients__item {
+  @include cardWidth(5, 30px, 6);
+}
+
+.clients__link {
+  @include flexContainer();
+  width: 100%;
+  height: 92px;
+  color: getColor('fill');
+  @include bordered(getColor('fill'));
+  border-radius: 4px;
+  @include transitionFunction(all);
+
+  &:hover,
+  &:focus {
+    color: getColor('accent');
+    border-color: getColor('accent');
+  }
+}
+
+.clients__icon {
+  fill: currentColor;
+}

@@ -1,0 +1,26 @@
+.advantages__list {
+  @include itemList();
+}
+
+.advantages__item {
+  @include cardWidth(3, 30px, 4);
+}
+
+.advantages__thumb {
+  @include flexContainer();
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: getBgColor('main');
+}
+
+.advantages__title {
+  margin-bottom: 10px;
+  font-weight: getFontWeight('bold');
+  font-size: getFontSize('main');
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.advantages__text {
+  line-height: 1.71;
+  color: getColor('primary-text');
+}

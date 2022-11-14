@@ -164,6 +164,7 @@
 
 .modal__form-acceptance-link {
   text-decoration: underline;
+  text-decoration-skip-ink: none;
   color: getColor('accent');
 }
 

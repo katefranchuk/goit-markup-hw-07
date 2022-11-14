@@ -106,7 +106,7 @@ body {
   margin-left: 10px;
 }
 
-.logo--light, .logo--dark {
+.logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -685,6 +685,7 @@ body {
 
 .modal__form-acceptance-link {
   text-decoration: underline;
+  text-decoration-skip-ink: none;
   color: #2196f3;
 }
 

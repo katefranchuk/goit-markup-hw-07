@@ -1,4 +1,4 @@
-%logo {
+.logo {
   font-family: getFontFamily('secondary');
   font-weight: getFontWeight('bold');
   font-size: getFontSize('logo');
@@ -6,12 +6,10 @@
 }
 
 .logo--dark {
-  @extend %logo;
   color: #000000;
 }
 
 .logo--light {
-  @extend %logo;
   color: #ffffff;
 }
 
